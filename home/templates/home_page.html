@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Документация человека</title>
+    <link type="image/x-icon" href="{% static 'img/favicon.ico' %}" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <script type="module" crossorigin src={% static 'js/index-iG7NRbKy.js' %}></script>
+    <link rel="stylesheet" href="{% static 'css/null.css' %}">
+    <link rel="stylesheet" crossorigin href="{% static 'css/index-2PaR9KSQ.css' %}">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="popup" class="popup"></div>
+      <header class="header">
+        <div class="container" id="header"></div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <section id="documentation" class="documentation"></section>
+          <section class="actuality" id="actuality"></section>
+          <section class="statistics" id="statistics"></section>
+          <section class="board" id="board"></section>
+        </div>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="container" ></div>
+      </footer>
+    </div>
+</body>
+</html>
